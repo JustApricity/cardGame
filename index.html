@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="css.css">
+
+    <style>
+        .cardList {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .card {
+            width: 140px;
+            height: 200px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: white;
+        }
+
+        .active {
+            background-color: #bf64ed;
+        }
+
+        .inactive {
+            background-color: #de6a87;
+            color: black;
+        }
+
+        h1 {
+            color: #380842;
+
+        }
+        .container {
+            display: flex;
+            width: 100%;
+
+        }
+
+        .content {
+            background-color: #ebd5f0;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <score>
+            <h1><i>Score</i></h1>
+        </score>
+        <div class="cardList">
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="index.js"> </script>
+</html>
